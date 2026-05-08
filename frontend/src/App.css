@@ -1,0 +1,92 @@
+.layout {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header nav {
+  display: flex;
+  gap: 12px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+}
+
+.card {
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.controls,
+.inline-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.pagination {
+  margin-top: 18px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.form {
+  display: grid;
+  gap: 10px;
+  max-width: 420px;
+}
+
+input,
+select,
+textarea,
+button {
+  padding: 10px;
+  border: 1px solid #d0d0d0;
+  border-radius: 6px;
+}
+
+.error {
+  color: #c62828;
+}
+
+.success {
+  color: #2e7d32;
+}
+
+.slots-list {
+  margin: 10px 0 14px;
+}
+
+.slot-date-group {
+  margin-bottom: 8px;
+}
+
+.chips {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 6px;
+}
+
+.chip {
+  padding: 4px 8px;
+  background: #f0f0f0;
+  border-radius: 16px;
+}
+
+.button-link {
+  display: inline-block;
+  margin-top: 8px;
+}
