@@ -5,6 +5,12 @@ Tech stack used:
 - Backend: Node.js + Express + MongoDB
 - Realtime: Socket.io
 
+## Live Links
+
+
+- Live Site: https://vedaz-frontend.onrender.com
+- Demo Video: https://drive.google.com/file/d/1Sh3SP-kCsGYbQWD6Xkwu8kkh-be05B0h/view?usp=drive_link
+
 ## Features Implemented
 
 ### 1) Expert Listing Screen
